@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/FLORESparuparo/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/mirai.png" alt="" width="200" height="200">
+    <img src="./assets/img/mirai.jpg" alt="" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Projects Portfolio</h3>
