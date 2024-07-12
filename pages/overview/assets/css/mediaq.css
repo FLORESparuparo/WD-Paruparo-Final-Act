@@ -1,0 +1,61 @@
+@media screen and (max-width: 720px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navigation ul {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        height: 100vh;
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25%;
+        row-gap: 4rem;
+
+        background-color: dimgray;
+        transform: translateX(-100%);
+
+        & li {
+            width: 100%;
+        }
+
+        :has(& .nav-button:hover) {
+            li:has(.nav-button:hover) {
+                background-color: lightcyan;
+                transform: translateX(6px) scale(1.2);
+
+
+                & .nav-button {
+                    color: black;
+                }
+
+                &:active {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+
+    .navigation .burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        display: flex;
+    }
+
+    main #main-center {
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 720px) {
+    .navigation ul {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        height: 100vh;
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25%;
+        row-gap: 4rem;
+
+        background-color: dimgray;
+        transform: translateX(-100%);
+
+        & li {
+            width: 100%;
+        }
+
+        :has(& .nav-button:hover) {
+            li:has(.nav-button:hover) {
+                background-color: lightcyan;
+                transform: translateX(6px) scale(1.2);
+
+                & .nav-button {
+                    color: black;
+                }
+
+                &:active {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+
+    .navigation .burger {
+        display: block;
+    }
+
+    main .card {
+        border-radius: 0;
+    }
+
+    footer>* {
+        position: absolute;
+        bottom: 8px;
+    }
+
+    footer .socials {
+        right: 8px;
+    }
+
+    footer .text {
+        left: 8px;
+    }
+}

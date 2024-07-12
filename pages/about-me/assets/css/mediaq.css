@@ -1,0 +1,72 @@
+@media screen and (max-width: 720px) {
+    .navigation ul {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        height: 100vh;
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25%;
+        row-gap: 4rem;
+
+        background-color: dimgray;
+        transform: translateX(-100%);
+
+        & li {
+            width: 100%;
+        }
+
+        :has(& .nav-button:hover) {
+            li:has(.nav-button:hover) {
+                background-color: lightcyan;
+                transform: translateX(6px) scale(1.2);
+
+                & .nav-button {
+                    color: black;
+                }
+
+                &:active {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+
+    .navigation .burger {
+        display: block;
+    }
+
+    .skills .languages {
+        display: flex;
+        column-gap: 1rem !important;
+    }
+
+    #main-center .experience {
+        height: 48rem;
+        row-gap: 2rem;
+        flex-direction: column;
+        margin-block: 2rem;
+    }
+
+    .qualifications .list {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        display: flex;
+    }
+
+    main #main-center {
+        width: 100%;
+    }
+}
