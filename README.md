@@ -14,6 +14,8 @@
 <!-- TODO: Make a short description -->
 <div align="center">
   WD Final Activity
+</div>
+<div align="center">
   WD-Paruparo-Final-Act
 </div>
 <div align="center">
@@ -57,6 +59,7 @@
 <!-- The following are just sample -->
 <h3>Final Activity</h3>
 This project requires us to build a personal website that demonstrates our design skills and web development knowledge. The website showcases distinct layouts for various features. It serves as a portfolio showcasing our skills and past projects.
+
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
