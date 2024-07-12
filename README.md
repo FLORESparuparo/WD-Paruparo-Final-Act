@@ -2,7 +2,7 @@
 
 <br/>
 
-<br />
+<br/>
 <div align="center">
   <a href="https://github.com/FLORESparuparo/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
@@ -16,11 +16,13 @@
   WD Final Activity
 </div>
 <div align="center">
-  WD-Paruparo-Final-Act
-</div>
-<div align="center">
   FLORESparuparo🦋
 </div>
+<br/>
+<div align="center">
+  <a href="https://app.daily.dev/necrokochou"><img src="https://api.daily.dev/devcards/v2/efdiFPmQ5Zeea0rt79CB0.png?type=default&r=pwt" width="356" alt="FLORESparuparo's Dev Card"/></a>
+</div>
+
 
 <br />
 
