@@ -14,7 +14,7 @@ notNav.addEventListener('click', function () {
 })
 
 window.addEventListener('resize', function () {
-    if (this.innerWidth > 720) {
+    if (this.innerWidth > 1080) {
         sideNav.style.transition = 'none'
         sideNav.style.transform = 'translateX(0)'
     }

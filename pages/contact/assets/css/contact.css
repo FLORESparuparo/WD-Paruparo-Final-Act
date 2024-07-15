@@ -133,7 +133,7 @@ main #main-center {
     z-index: 1;
     position: relative;
 
-    height: 100vh;
+    height: 86vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,48 +143,27 @@ main #main-center {
     box-shadow: 0 0 2rem 8px dimgray;
 }
 
-#main-center .image-carousel {
-    height: 540px;
-    max-width: 960px;
-    display: flex;
+#main-center .title {
     margin-top: 4rem;
-    border: 4px solid black;
-    border-radius: 2rem;
-
-    overflow: hidden;
 }
 
-.image-carousel .carousel-slide {
-    height: inherit;
-    display: flex;
-}
-
-#main-center .image-info {
+#main-center .socials {
+    width: max-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    row-gap: 1rem;
 }
 
-.image-info .description {
-    word-spacing: 4px;
-}
-
-main .carousel-nav {
+.socials .icon {
     display: flex;
-    column-gap: 4rem;
-}
+    align-items: center;
+    column-gap: 2rem;
 
-.carousel-nav .button {
-    font-size: 4rem;
-    color: black;
-    cursor: default;
-    transition: 0.2s;
-}
-
-#main-center .overview {
-    width: 56rem;
-    margin-inline: 8vw;
-    text-align: center;
+    & img {
+        height: 2.5rem;
+        display: flex;
+        align-self: center;
+    }
 }
 
 main #main-right {
@@ -211,10 +190,4 @@ footer .text {
     color: lightcyan;
     background-color: dimgray;
     box-shadow: 0 0 2rem 8px dimgray;
-}
-
-/* DEV */
-/*
-#main-center * {
-    border: 1px dashed red;
 }

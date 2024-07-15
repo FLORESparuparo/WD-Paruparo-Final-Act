@@ -35,6 +35,10 @@ header .navigation {
     }
 }
 
+header {
+    justify-content: center;
+}
+
 .navigation .logo {
     margin-right: 15px;
 
@@ -132,7 +136,7 @@ main {
 }
 
 main .card {
-    max-width: 64rem;
+    width: 64rem;
     padding-block: 6vh;
     padding-inline: 4vw;
     border-radius: 1rem;

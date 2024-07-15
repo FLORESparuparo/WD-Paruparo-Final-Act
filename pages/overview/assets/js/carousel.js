@@ -57,3 +57,7 @@ imageSlide.addEventListener('transitionend', function () {
         imageSlide.style.transform = 'translateX(' + (-size * count) + 'px)'
     }
 })
+
+window.addEventListener('resize', function () {
+    this.location.reload()
+})
